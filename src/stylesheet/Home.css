@@ -1,0 +1,29 @@
+@keyframes appear {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+.homeText, .technologies {
+    animation: appear 2s ease-in;
+    animation-iteration-count: 1;
+    margin-top: 5rem;
+}
+.homeText {
+    text-align: center;
+    color: antiquewhite;
+}
+.technologies {
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.techPics {
+    justify-self: center;
+    height: 5rem;
+    width: 5rem;
+}
