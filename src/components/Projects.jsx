@@ -1,3 +1,4 @@
+import '../stylesheet/Projects.css'
 function Projects () {
     return <>
     

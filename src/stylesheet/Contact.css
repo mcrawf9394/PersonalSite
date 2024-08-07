@@ -1,0 +1,34 @@
+@keyframes appear {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+h1, img {
+    animation: appear 2s ease-in;
+    animation-iteration-count: 1;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+.buttonContainer {
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.icons {
+    height: 10rem;
+    width: 10rem;
+}
+.icons:hover {
+    scale: 1.2;
+    transition: 1s ease-in-out;
+}
+a {
+    margin-top: 3rem;
+    justify-self: center;
+}
