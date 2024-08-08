@@ -27,3 +27,31 @@
     height: 5rem;
     width: 5rem;
 }
+@media (max-width: 1000px) {
+    .technologies {
+        width: 100%;
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .techPics {
+        justify-self: center;
+        height: 5rem;
+        width: 5rem;
+    }
+}
+@media (max-width: 600px) {
+    .technologies {
+        width: 100%;
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .techPics {
+        justify-self: center;
+        height: 5rem;
+        width: 5rem;
+    }
+}

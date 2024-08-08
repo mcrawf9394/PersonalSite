@@ -8,4 +8,14 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 2rem;
+}
+@media (max-width: 1000px) {
+    .projectDisplay {
+        width: 100%;
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
